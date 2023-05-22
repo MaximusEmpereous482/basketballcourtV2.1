@@ -8,22 +8,29 @@
     tools:context=".MainActivity">
 
 
+
     <ImageView
         android:id="@+id/basketball_court"
-        android:layout_width="454dp"
-        android:layout_height="759dp"
+        android:layout_width="400dp"
+        android:layout_height="700dp"
+        android:background="@drawable/shape_example"
+        android:clipToOutline="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/basketball_court" />
+        app:srcCompat="@drawable/basketball_court"
+        android:contentDescription="TODO" />
 
     <ImageView
+
+
         android:id="@+id/basketball_ball"
         android:layout_width="136dp"
         android:layout_height="236dp"
         app:srcCompat="@drawable/basketball_ball"
         tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="-38dp" />
+        tools:layout_editor_absoluteY="-38dp"
+        android:contentDescription="@string/todo" />
 </androidx.constraintlayout.motion.widget.MotionLayout>
